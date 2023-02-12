@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const btn = document.createElement("button");
+      btn.appendChild(document.createTextNode("로그 출력"));
+      document.body.appendChild(btn);
+
+      const btnL = document.querySelector("button");
+      btnL.addEventListener("click", () => {
+        console.log("버튼클릭");
+      });
+    </script>
+  </body>
+</html>
